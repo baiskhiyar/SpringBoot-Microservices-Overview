@@ -97,7 +97,7 @@ graph LR
     FluentD --> Elasticsearch[Elasticsearch];
     Elasticsearch --> Grafana[Grafana Dashboard];
 
-    subgraph Logging Infrastructure (Dockerized)
+    subgraph Logging Infrastructure [Dockerized]
         Zookeper;
         Kafka;
         FluentD;
