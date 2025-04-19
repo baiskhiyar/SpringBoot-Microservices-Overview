@@ -81,7 +81,7 @@ To effectively monitor the distributed microservices system, a dedicated logging
 6. **Orchestration:** The entire logging stack (Kafka, Zookeeper, FluentD, Elasticsearch, Grafana) is managed and deployed using Docker Compose for ease of setup and scalability.
 
 ```mermaid
-    graph LR
+graph LR
     subgraph Microservices
         ServiceA[Service A];
         ServiceB[Service B];
