@@ -53,13 +53,13 @@ graph LR
 ## Microservice Repositories
 Here are the individual repositories for each microservice component:
 
-1. **Service Discovery:** SpringBoot-EurekaService: Handles service registration and discovery, allowing services to find each other dynamically. Built with Spring Cloud Netflix Eureka.
-2. **API Gateway:** SpringBoot-ApiGatewayService: Single entry point for all client requests. Handles routing, load balancing (basic), security enforcement (via Auth Service), and request aggregation. Built with Spring Cloud Gateway.
-3. **Authentication Service:** SpringBoot-AuthService: Manages user authentication using JWT (JSON Web Tokens). Responsible for issuing, validating, and refreshing tokens. Interacts with the User Service for user data.
-4. **User Service:** SpringBoot-UserService: Manages user profiles, registration, and related data persistence.
-5. **Product Service:** SpringBoot-ProductService: Manages product catalog information, inventory levels, pricing, etc.
-6. **Ordering Service:** SpringBoot-OrderingService: Responsible for managaing cart and ordering flow.
-7. **Payment Service:** SpringBoot-PaymentService: Responsible for managing payments.
+1. **[Eureka Discovery Service](https://github.com/baiskhiyar/SpringBoot-EurekaService) :** SpringBoot-EurekaService: Handles service registration and discovery, allowing services to find each other dynamically. Built with Spring Cloud Netflix Eureka.
+2. **[API Gateway Service](https://github.com/baiskhiyar/SpringBoot-ApiGatewayService) :** SpringBoot-ApiGatewayService: Single entry point for all client requests. Handles routing, load balancing (basic), security enforcement (via Auth Service), and request aggregation. Built with Spring Cloud Gateway.
+3. **[Authentication Service](https://github.com/baiskhiyar/SpringBoot-AuthService) :** SpringBoot-AuthService: Manages user authentication using JWT (JSON Web Tokens). Responsible for issuing, validating, and refreshing tokens. Interacts with the User Service for user data.
+4. **[User Service](https://github.com/baiskhiyar/SpringBoot-UserService) :** SpringBoot-UserService: Manages user profiles, registration, and related data persistence.
+5. **[Product Service](https://github.com/baiskhiyar/SpringBoot-ProductService) :** SpringBoot-ProductService: Manages product catalog information, inventory levels, pricing, etc.
+6. **[Ordering Service]() :** SpringBoot-OrderingService: Responsible for managaing cart and ordering flow.
+7. **[Payments Service]() :** SpringBoot-PaymentService: Responsible for managing payments.
 
 ## Key Technologies (E-Commerce)
 1. **Framework:** Spring Boot, Spring Cloud (Eureka, Gateway)
